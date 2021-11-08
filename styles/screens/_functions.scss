@@ -1,6 +1,6 @@
 .functions {
    width: 100%;
-   height: 110vh;
+   height: 100%;
 
    display: flex;
 
@@ -19,6 +19,7 @@
 
    &__info {
       width: 50%;
+      padding: 120px 0px;
       padding-left: 160px;
       padding-right: 92px;
 
@@ -55,7 +56,6 @@
       height: 100%;
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
       margin-left: 36px;
    }
 }
