@@ -1,0 +1,16 @@
+.btn {
+   outline: none;
+   border: none;
+
+   width: fit-content;
+   height: fit-content;
+   padding: 20px 30px;
+   border-radius: 16px;
+
+   background-color: $Orange;
+   color: white;
+
+   font-family: $Satoshi;
+   font-size: 24px;
+   font-variation-settings: $Bold;
+}

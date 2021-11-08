@@ -1,0 +1,14 @@
+//var
+$Gradient: linear-gradient(25.59deg, #ffb54f -2.47%, #e59747 82.72%);
+$Green: #097a00;
+$Orange: #ff964d;
+* {
+   margin: 0;
+   box-sizing: border-box;
+}
+
+@import "./utils/satoshi";
+@import "./utils/typo";
+@import "./components/header";
+@import "./components/btn";
+@import "./screens/landing";

@@ -1,0 +1,46 @@
+//font-weight
+$BlackTypo: "wght" 900;
+$Bold: "wght" 700;
+$Regular: "wght" 400;
+$Medium: "wght" 500;
+
+//Typos
+$Satoshi: "Satoshi-Variable";
+
+h1 {
+   color: $Green;
+   font-family: $Satoshi;
+   font-size: 48px;
+   font-variation-settings: $Bold;
+
+   margin-bottom: 60px;
+
+   span.bold {
+      font-variation-settings: $BlackTypo;
+   }
+
+   span.color {
+      color: $Orange;
+   }
+
+   &.white {
+      color: white;
+   }
+}
+
+p {
+   font-family: $Satoshi;
+   font-size: 20px;
+   font-variation-settings: $Regular;
+}
+
+a {
+   text-decoration: none;
+   font-family: $Satoshi;
+   font-size: 24px;
+   font-variation-settings: $Regular;
+
+   &:visited {
+      color: white;
+   }
+}
