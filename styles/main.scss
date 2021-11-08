@@ -2,9 +2,17 @@
 $Gradient: linear-gradient(25.59deg, #ffb54f -2.47%, #e59747 82.72%);
 $Green: #097a00;
 $Orange: #ff964d;
+$Black: #565656;
+
 * {
    margin: 0;
    box-sizing: border-box;
+}
+
+hr {
+   width: 80px;
+   border: 2px solid #ffffff;
+   margin-bottom: 48px;
 }
 
 @import "./utils/satoshi";
@@ -12,3 +20,4 @@ $Orange: #ff964d;
 @import "./components/header";
 @import "./components/btn";
 @import "./screens/landing";
+@import "./screens/about";

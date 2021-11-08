@@ -1,0 +1,29 @@
+.about {
+   width: 100%;
+   height: 100vh;
+
+   display: flex;
+
+   &__info {
+      width: 70%;
+      background: $Gradient;
+      padding-left: 160px;
+      padding-right: calc(20% + 92px);
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+
+   &__photo {
+      height: 60%;
+      margin-left: -40%;
+
+      &__container {
+         width: 30%;
+         display: flex;
+         justify-content: flex-start;
+         align-items: center;
+      }
+   }
+}
