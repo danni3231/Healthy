@@ -106,6 +106,10 @@ h2 {
   margin-bottom: 4px;
 }
 
+h2.white {
+  color: white;
+}
+
 p {
   color: #565656;
   font-family: "Satoshi-Variable";
@@ -185,6 +189,67 @@ a:visited {
   font-family: "Satoshi-Variable";
   font-size: 24px;
   font-variation-settings: "wght" 700;
+}
+
+.function {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+
+.function img {
+  width: 90px;
+}
+
+.function__info {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 36px;
+}
+
+.personCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 80px;
+}
+
+.personCard img {
+  width: 400px;
+  height: 320px;
+  border-radius: 16px 16px 0px 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.personCard div {
+  background-color: #ff964d;
+  padding: 24px 35px;
+  border-radius: 0px 0px 16px 16px;
+}
+
+.personCard div h2 {
+  font-variation-settings: "wght" 900;
+}
+
+.personCard div p {
+  font-size: 18px;
 }
 
 .landing {
@@ -338,33 +403,23 @@ a:visited {
           flex-direction: column;
 }
 
-.function {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 40px;
-}
-
-.function p {
-  margin-bottom: 0px;
-}
-
-.function img {
-  width: 90px;
-}
-
-.function__info {
+.team {
+  width: 100%;
   height: 100%;
+  padding: 160px 180px;
+}
+
+.team__text {
+  max-width: 700px;
+}
+
+.team__photos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-left: 36px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 /*# sourceMappingURL=main.css.map */

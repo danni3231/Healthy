@@ -37,25 +37,3 @@
       flex-direction: column;
    }
 }
-
-.function {
-   display: flex;
-   align-items: center;
-
-   margin-bottom: 40px;
-
-   p {
-      margin-bottom: 0px;
-   }
-
-   img {
-      width: 90px;
-   }
-
-   &__info {
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      margin-left: 36px;
-   }
-}
