@@ -11,8 +11,16 @@ $Black: #565656;
 
 hr {
    width: 80px;
-   border: 2px solid #ffffff;
+   border: 2px solid $Green;
    margin-bottom: 48px;
+
+   &.white {
+      border: 2px solid white;
+   }
+}
+
+.withoutMargin {
+   margin: 0px !important;
 }
 
 @import "./utils/satoshi";
@@ -21,3 +29,4 @@ hr {
 @import "./components/btn";
 @import "./screens/landing";
 @import "./screens/about";
+@import "./screens/functions";
