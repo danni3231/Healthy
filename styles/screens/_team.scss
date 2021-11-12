@@ -14,3 +14,13 @@
       justify-content: space-around;
    }
 }
+
+@media (max-width: 1115px) {
+   .team {
+      padding: 120px;
+
+      &__photos {
+         align-items: center;
+      }
+   }
+}

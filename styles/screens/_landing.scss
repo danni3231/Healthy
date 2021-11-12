@@ -43,8 +43,9 @@
 
       &__info {
          width: 100%;
+
+         padding: 120px;
          padding-top: 260px;
-         padding-bottom: 120px;
          text-align: center;
          align-items: center;
       }
@@ -52,6 +53,8 @@
       &__photo {
          width: 100%;
          padding: 120px;
+         padding-top: 0px;
+         background: white;
       }
 
       img {

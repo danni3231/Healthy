@@ -27,3 +27,32 @@
       }
    }
 }
+
+@media (max-width: 1115px) {
+   .about {
+      flex-direction: column;
+      height: fit-content;
+
+      &__info {
+         width: 100%;
+         padding: 120px 140px;
+         padding-bottom: 280px;
+      }
+
+      &__photo {
+         margin-left: 0;
+         height: auto;
+         width: 40%;
+
+         transform: rotate(90deg);
+
+         margin-top: -20%;
+
+         &__container {
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+         }
+      }
+   }
+}

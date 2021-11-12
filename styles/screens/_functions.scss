@@ -37,3 +37,24 @@
       flex-direction: column;
    }
 }
+
+@media (max-width: 1115px) {
+   .functions {
+      flex-direction: column-reverse;
+      height: fit-content;
+
+      &__info {
+         width: 100%;
+         padding: 120px;
+      }
+
+      &__photo {
+         width: 100%;
+         padding: 120px;
+
+         img {
+            width: 50%;
+         }
+      }
+   }
+}

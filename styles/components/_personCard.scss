@@ -12,6 +12,7 @@
    }
 
    div {
+      width: 400px;
       background-color: $Orange;
       padding: 24px 35px;
       border-radius: 0px 0px 16px 16px;
@@ -22,6 +23,25 @@
 
       p {
          font-size: 18px;
+      }
+   }
+}
+
+@media (max-width: 1115px) {
+   .personCard {
+      img {
+         width: 250px;
+         height: 200px;
+         border-radius: 16px 16px 0px 0px;
+         object-fit: cover;
+         object-position: top;
+      }
+
+      div {
+         width: 250px;
+         p {
+            font-size: 14px;
+         }
       }
    }
 }
