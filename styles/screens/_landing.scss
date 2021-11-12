@@ -35,3 +35,27 @@
       }
    }
 }
+
+@media (max-width: 1115px) {
+   .landing {
+      height: fit-content;
+      flex-direction: column;
+
+      &__info {
+         width: 100%;
+         padding-top: 260px;
+         padding-bottom: 120px;
+         text-align: center;
+         align-items: center;
+      }
+
+      &__photo {
+         width: 100%;
+         padding: 120px;
+      }
+
+      img {
+         width: 50%;
+      }
+   }
+}

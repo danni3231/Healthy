@@ -29,3 +29,9 @@
       justify-content: space-around;
    }
 }
+
+@media (max-width: 1115px) {
+   .header__nav {
+      padding-left: 0;
+   }
+}

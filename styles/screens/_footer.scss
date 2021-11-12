@@ -9,7 +9,13 @@
 
    &__info {
       width: 50%;
+      display: flex;
+      flex-direction: column;
       padding-right: 120px;
+
+      p {
+         margin-bottom: 60px;
+      }
    }
 
    &__form {
@@ -68,6 +74,46 @@
       &__container {
          display: flex;
          flex-direction: column;
+      }
+   }
+}
+
+@media (max-width: 1400px) {
+   .footer {
+      flex-direction: column-reverse;
+      padding: 100px 180px;
+
+      &__form {
+         width: 100%;
+         margin: 0;
+         margin-bottom: 80px;
+
+         h1 {
+            text-align: center;
+         }
+      }
+
+      &__info {
+         width: 100%;
+         padding-right: 0px;
+         align-items: center;
+
+         text-align: center;
+      }
+
+      &__element {
+         margin-bottom: 0px;
+         text-align: left;
+
+         img {
+            margin-right: 16px;
+         }
+
+         &__container {
+            width: 100%;
+            flex-direction: row;
+            justify-content: space-between;
+         }
       }
    }
 }

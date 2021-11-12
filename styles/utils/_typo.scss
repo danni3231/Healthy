@@ -58,8 +58,34 @@ a {
    font-family: $Satoshi;
    font-size: 24px;
    font-variation-settings: $Regular;
+   color: white;
 
    &:visited {
       color: white;
+   }
+}
+
+@media (max-width: 1350px) {
+   h1 {
+      font-size: 36px;
+   }
+
+   p {
+      font-size: 16px;
+   }
+
+   h2,
+   a {
+      font-size: 20px;
+   }
+}
+
+@media (max-width: 1115px) {
+   a {
+      color: $Orange;
+
+      &:visited {
+         color: $Orange;
+      }
    }
 }
