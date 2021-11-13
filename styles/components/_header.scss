@@ -35,3 +35,33 @@
       padding-left: 0;
    }
 }
+
+@media (max-width: 800px) {
+   .header {
+      padding-top: 40px;
+
+      &__nav {
+         display: none;
+      }
+   }
+}
+
+@media (max-width: 600px) {
+   .header {
+      justify-content: center;
+
+      &__blob {
+         width: 95%;
+         left: 0px;
+         top: -30px;
+      }
+
+      &__logo {
+         padding-left: 0;
+      }
+
+      &__nav {
+         display: none;
+      }
+   }
+}

@@ -55,10 +55,28 @@
          padding: 120px;
          padding-top: 0px;
          background: white;
+
+         img {
+            width: 50%;
+         }
+      }
+   }
+}
+
+@media (max-width: 600px) {
+   .landing {
+      &__info {
+         padding: 80px 60px;
+         padding-top: 180px;
       }
 
-      img {
-         width: 50%;
+      &__photo {
+         padding: 80px 60px;
+         padding-top: 0px;
+
+         img {
+            width: 60%;
+         }
       }
    }
 }

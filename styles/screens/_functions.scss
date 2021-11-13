@@ -58,3 +58,20 @@
       }
    }
 }
+
+@media (max-width: 600px) {
+   .functions {
+      text-align: center;
+      &__info {
+         padding: 80px 60px;
+      }
+
+      &__photo {
+         padding: 80px 60px;
+
+         img {
+            width: 60%;
+         }
+      }
+   }
+}

@@ -56,3 +56,12 @@
       }
    }
 }
+
+@media (max-width: 600px) {
+   .about {
+      text-align: center;
+      &__info {
+         padding: 80px 60px;
+      }
+   }
+}
