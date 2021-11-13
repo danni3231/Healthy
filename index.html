@@ -5,6 +5,17 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="stylesheet" href="./styles/main.css" />
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-TFQHXYN33W"></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag() {
+            dataLayer.push(arguments);
+         }
+         gtag("js", new Date());
+
+         gtag("config", "G-TFQHXYN33W");
+      </script>
       <title>Healthy</title>
    </head>
    <body>
@@ -135,6 +146,7 @@
             </div>
          </section>
       </article>
+
       <footer class="footer">
          <section class="footer__info">
             <h1 class="white">Estaremos encantados de atenderte</h1>
@@ -159,30 +171,37 @@
                </div>
             </div>
          </section>
-         <section class="footer__form">
+         <form class="footer__form">
             <h1>Contáctanos ahora y recibe un <span class="color">10% de descuento</span> en el plan que elijas</h1>
             <label for="">
                Nombre
-               <input type="text" placeholder="Nombre" />
+               <input type="text" name="name" placeholder="Nombre" />
             </label>
 
             <label for="">
                E-mail
-               <input type="text" placeholder="E-mail" />
+               <input type="text" name="email" placeholder="E-mail" />
             </label>
 
             <label for="">
                Razones por la cuales quieres cambiar tu alimentación
                <textarea
                   placeholder="Razones por la cuales quieres cambiar tu alimentación"
-                  name=""
+                  name="reasons"
                   id=""
                   cols="20"
                   rows="5"
                ></textarea>
             </label>
             <button class="btn">Enviar</button>
-         </section>
+         </form>
       </footer>
+
+      <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-analytics.js"></script>
+
+      <script src="./scripts/firebase.js"></script>
+      <script src="./scripts/forms.js"></script>
    </body>
 </html>
